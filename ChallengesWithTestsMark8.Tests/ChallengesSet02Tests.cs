@@ -225,7 +225,7 @@ namespace ChallengesWithTestsMark8.Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-
+        
         [Theory]
         [InlineData(0, 0)]
         [InlineData(1, 0)]
