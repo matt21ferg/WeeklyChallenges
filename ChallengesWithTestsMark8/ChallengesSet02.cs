@@ -14,39 +14,32 @@ namespace ChallengesWithTestsMark8
         public bool CountOfElementsIsEven(string[] vals)
         {
            return vals.Length % 2 != 0 ? false : true;
-            
         }
 
         public bool IsNumberEven(int number)
         {
             return number % 2 == 0 ? true : false;
-            
         }
 
         public bool IsNumberOdd(int num)
         {
             return num % 2 != 0 ? true : false ;
-            
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
             
            return numbers == null || numbers.Count() == 0 ? 0 : numbers.Min() + numbers.Max();
-               
-
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
             return str1.Length >= str2.Length ? str2.Length : str1.Length;
-                                
         }
 
         public int Sum(int[] numbers)
         {
             return numbers == null ? 0 : numbers.Sum();
-           
         }
 
         public int SumEvens(int[] numbers)
@@ -77,9 +70,6 @@ namespace ChallengesWithTestsMark8
             //if(sum % 2 != 0)
             //return true;
             //else return false;
-
-
-
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
@@ -89,8 +79,6 @@ namespace ChallengesWithTestsMark8
             //if (posOdds < 0)
             //    return 0;
             //else return posOdds;
-            
-
         }
 
 
