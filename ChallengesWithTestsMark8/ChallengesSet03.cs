@@ -15,7 +15,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
-            if (numbers is null || numbers.Count() == 0)
+            if(numbers is null || numbers.Count() == 0)
                 return false;
 
 
