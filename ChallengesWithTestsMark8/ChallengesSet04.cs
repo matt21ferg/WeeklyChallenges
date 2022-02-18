@@ -59,10 +59,7 @@ namespace ChallengesWithTestsMark8
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
             var counter = 0;
-            var triangle = new List<int>();
-            triangle.Add(sideLength1);
-            triangle.Add(sideLength2);
-            triangle.Add(sideLength3);
+           
 
            if(sideLength1 + sideLength2 > sideLength3)
             { counter++; }
