@@ -82,7 +82,7 @@ namespace ChallengesWithTestsMark8
             {
                 return Every4.ToArray();
             }
-        for (int i = 4; i > elements.Count + 1 ; i += 4)
+        for (int i = 3; i > elements.Count ; i += 4)
         { Every4.Add(i); }
         return Every4.ToArray();
 
